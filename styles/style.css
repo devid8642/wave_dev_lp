@@ -138,6 +138,57 @@ nav{
     color: #121212;
 }
 
+#assessments{
+    background-image: url("../assets/assessments.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    place-items: center;
+    padding: 64px;
+    width: 100%;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+#assessments img{
+    height: 64px;
+}
+
+.assessments-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.assessments-container i{
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.person p{
+    margin-top: 4px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.border-image{
+    border: solid 2px white; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    width: auto;
+}
+
 
 footer{
     background-color: #121212;
