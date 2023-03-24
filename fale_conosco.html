@@ -4,34 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/fale_conosco.css">
     <title>Fale Conosco</title>
 </head>
 <body>
     <header>
-        <img src="" alt="logo">
+        <h1>LOGO</h1>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Fale Conosco</a>
+          <a href="#home">Home</a>
+          <a href="#services">Serviços</a>
+          <a href="#assessments">Avaliações</a>
         </nav>
+        <a class="contact">Entrar em contato</a>
     </header>
 
     <main>
-        <section>
-            <form>
-                <label for="nome">Nome</label>
-                <input type="text" name="nome">
-
-                <label for="sobrenome">Sobrenome</label>
-                <input type="text" name="sobrenome">
-
-                <label for="email">Email</label>
-                <input type="email" name="email">
-
-                <label for="msg">Mensagem</label>
-                <textarea name="msg" rows="10" cols="80"></textarea>
+        <div class="fale_conosco">
+            <img src="assets/imagem_fale_conosco.png">
+        </div>
+        <div>
+            <form action="">
+                <h1>Entrar em Contato</h1>
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+                <br><br>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <br><br>
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                <br><br>
+                <button type="submit" class="contact">Entrar em contato</button>
             </form>
-        </section>
+        </div>
     </main>
+
+    <footer>
+        <div>
+          <h1>LOGO</h1>
+          <span>Empresa 2023</span>
+          <span>Todos os direitos reservados</span>
+        </div>
+        <div>
+          <h2>Utilidades</h2>
+          <a href="#home">Home</a>
+          <a href="#services">Serviços</a>
+          <a href="#avaliacoes">Avaliações</a>
+          <a href="#contato">Entre em contato</a>
+        </div>
+        <div>
+          <h2>Redes socais</h2>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+          <a href="#">Linkedin</a>
+        </div>
+        <div>
+          <h2>Contatos</h2>
+          <span>xxxxx@gmail.com</span>
+          <span>0800 000 0000</span>
+        </div>
+    </footer>
 </body>
 </html>
