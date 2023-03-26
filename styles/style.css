@@ -220,6 +220,60 @@ li {
   width: auto;
 }
 
+#form {
+  background: linear-gradient(180deg, #210D3E 0%, #254983 100%);
+}
+
+#content_form > h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 58px;
+  color: #FFFFFF;
+}
+
+#box_form {
+  display: flex;
+  align-items: center;
+}
+
+#box_form > div {
+  flex: 2;
+}
+
+#img_form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+form > input, textarea {
+  background: transparent;
+  box-sizing: border-box;
+  border: 2.5px solid #FFFFFF;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+form > input::placeholder, textarea::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 34px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+form > input {
+  width: 190px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+form > button {
+  font-size: 20px;
+}
+
 footer {
   background-color: #121212;
   display: flex;
